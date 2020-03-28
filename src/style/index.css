@@ -37,6 +37,25 @@ body
     width: 800px;
     margin:0 auto;
 }
+#contact
+{
+    clear:both;
+    display:flex;
+    width:800px;
+    color:#818181;
+    justify-content: space-between;
+    margin:5% auto;
+}
+#section1
+{
+    width:30%;
+    height:150px;
+}
+#section2
+{
+    width:30%;
+    height:150px;
+}
 .nav-link
 {
     text-decoration: none;
@@ -130,4 +149,19 @@ body
 {
     background-color: #12BBFF;
     cursor:pointer;
+}
+.btn-submit
+{
+    cursor:pointer;
+    border-radius:4px;
+    line-height: 1.5;
+    padding:6px 12px;
+    margin-top:2px;
+}
+.form-input
+{
+    width:100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 25px;
 }
